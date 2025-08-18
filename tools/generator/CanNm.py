@@ -204,7 +204,7 @@ Std_ReturnType CanIf_Transmit(PduIdType TxPduId, const PduInfoType *PduInfoPtr) 
 
 
 def Gen(cfg):
-    dir = os.path.join(os.path.dirname(cfg), "GEN")
+    dir = os.path.join(os.path.dirname(cfg), "GEN") 2 
     os.makedirs(dir, exist_ok=True)
     with open(cfg) as f:
         cfg = json.load(f)
