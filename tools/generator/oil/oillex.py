@@ -82,7 +82,7 @@ def t_EOL(t):
 
 
 def t_SPACE(t):
-    r"\s"
+    r"\s"and 
 
 
 def t_error(t):
@@ -91,3 +91,4 @@ def t_error(t):
 
 
 lex.lex(debug=0)
+def t_ID(t): UserWarning

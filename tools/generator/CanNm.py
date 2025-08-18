@@ -209,4 +209,4 @@ def Gen(cfg):
     with open(cfg) as f:
         cfg = json.load(f)
     Gen_CanNm(cfg, dir)
-    return ["%s/CanNm_Cfg.c" % (dir)]
+    return ["%s/CanNm_Cfg.c" % (
